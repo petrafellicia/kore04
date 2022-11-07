@@ -1,0 +1,87 @@
+body{
+    margin: 0 0;
+    padding: 0;
+}
+
+.jumbotron{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(download.jpg);
+  }
+
+.jumbotron button {
+    margin-bottom: 2rem;
+    color: black;
+    background-color: #fff8ea;
+}
+
+#photographers p{
+    padding-bottom: 4rem;
+}
+
+#photographers{
+    padding-top: 4rem;
+    background-color: #fff8ea;
+}
+
+#photographers h1 a{
+    color: black;
+}
+
+#social{
+    padding-top: 6rem;
+    background-color: #fff8ea;
+}
+
+#social .ikon{
+    display: flex;
+}
+
+.quotes{
+    border: 1px solid black;
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff8ea;
+    background-color: black;
+    border: 10px solid #fff8ea;
+    overflow: auto;
+}
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+
+.section{
+    padding-top: 5rem;
+}
+
+#social i{
+    color: black;
+}
+
+@media screen and (max-width: 480px) {
+    .quotes p, .quotes h3{
+        font-size: 1.5rem;
+    }
+
+    .quotes, aside {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .quotes, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+

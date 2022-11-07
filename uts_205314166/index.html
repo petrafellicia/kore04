@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youngwon Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm navbar-fixed-top" style="background-color: black" ;>
+      <div class="container">
+        <a class="navbar-brand" style="font-family:'Mumblers Demo'" href="#">Youngwon Studio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#photos">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#photographers">Photographers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#social">Socials</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Home -->
+    <section class="jumbotron text-center">
+    <div class="jumbotron">
+        <div class="quotes">
+            <p id="quote">영원히(yeongwonhi)</p>
+            <h3 id="author">//forever</h3>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <button onclick="generate()" class="btn btn-info">Please click this!</button>
+    </div>
+    </section>
+    <!-- Akhir Home -->
+
+    <!-- Photos -->
+    <section id="photos">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <div class="row text-center mb-3">
+                <div class="col">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+                <img src="13.jpg" class="d-block w-100" alt="Gangnam" width="100%">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Gangnam-do Couple Photoshoot</h5>
+                  <p>2020</p>
+                </div>
+          </div>
+          <div class="carousel-item">
+            <img src="2.jpg" class="d-block w-100" alt="Street" width="100%">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Streetcross</h5>
+              <p>2007</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="12.jpg" class="d-block w-100" alt="Blue Sky" width="100%">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Jeju's Blue Sky</h5>
+              <p>2010</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="9.jpg" class="d-block w-100" alt="Chinese Prewed" width="100%">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>China Town Restaurant</h5>
+              <p>2007</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Akhir Photos -->
+   
+    <!-- Photographers -->
+    <section id="photographers">
+           <div class="row text-center mb-3">
+            <div class="col">
+              <h2>Photographers</h2>
+            </div>
+          </div>
+          <div class="row justify-content-evenly fs-5 text-center">
+            <div class="col-md-4">
+                <img src="p1.jpg" alt="Main Photographer" width="200" class="rounded-circle img-thumbnail" />
+                <h1 class="display-4 fw-bold"><a href="https://www.instagram.com/yg_treasure_official/">Ong</a></h1>
+                <p class="lead">Main Photographer</p>
+            </div>
+            <div class="col-md-4">
+                <img src="p2.jpg" alt="Asistant Photographer" width="200" class="rounded-circle img-thumbnail" />
+                <h1 class="display-4 fw-bold"><a href="https://www.instagram.com/osw_onge/">Jihun Park</a></h1>
+                <p class="lead">Asistant Photographer</p>
+            </div>
+          </div>
+    </section>
+    <!-- Akhir Photographers -->
+
+    <!-- Socials -->
+    <section id="social">
+          <div class="row text-center mb-3 ">
+            <div class="col">
+              <h2 style="font-size:medium";>Contact Us</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center fs-5 text-center ikon">
+            <div class="col-1">
+                <p class="mt-4"><a href="mailto:petrafellicia04@gmail.com"><i class="bi bi-envelope"></i></a></p>
+            </div>
+            <div class="col-1">
+                <p class="mt-4"><a href="https://twitter.com/jinjinjaraa04"><i class="bi bi-twitter"></i></a></p>
+            </div>
+            <div class="col-1">
+                <p class="mt-4"><a href="https://www.instagram.com/petra.fellicia/"><i class="bi bi-instagram"></i></a></p>
+            </div>
+            <div class="col-1">
+                <p class="mt-4"><a href="https://wa.me/6281326714219"><i class="bi bi-whatsapp"></i></a></p>
+            </div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f5efe6" fill-opacity="1" d="M0,224L6.2,240C12.3,256,25,288,37,288C49.2,
+            288,62,256,74,224C86.2,192,98,160,111,128C123.1,96,135,64,148,85.3C160,107,172,181,185,
+            202.7C196.9,224,209,192,222,154.7C233.8,117,246,75,258,58.7C270.8,43,283,53,295,90.7C307.7,
+            128,320,192,332,208C344.6,224,357,192,369,154.7C381.5,117,394,75,406,80C418.5,85,431,139,443,
+            144C455.4,149,468,107,480,96C492.3,85,505,107,517,106.7C529.2,107,542,85,554,80C566.2,75,578,
+            85,591,96C603.1,107,615,117,628,106.7C640,96,652,64,665,80C676.9,96,689,160,702,202.7C713.8,
+            245,726,267,738,234.7C750.8,203,763,117,775,112C787.7,107,800,181,812,176C824.6,171,837,85,849,
+            58.7C861.5,32,874,64,886,80C898.5,96,911,96,923,128C935.4,160,948,224,960,250.7C972.3,277,985,
+            267,997,224C1009.2,181,1022,107,1034,90.7C1046.2,75,1058,117,1071,138.7C1083.1,160,1095,160,
+            1108,181.3C1120,203,1132,245,1145,234.7C1156.9,224,1169,160,1182,144C1193.8,128,1206,160,1218,
+            170.7C1230.8,181,1243,171,1255,138.7C1267.7,107,1280,53,1292,37.3C1304.6,21,1317,43,1329,
+            90.7C1341.5,139,1354,213,1366,229.3C1378.5,245,1391,203,1403,208C1415.4,213,1428,267,1434,
+            293.3L1440,320L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,
+            320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,
+            320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,
+            1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,
+            320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,
+            320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,
+            320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,
+            320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,
+            320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,
+            320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,
+            320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,
+            49,320,37,320C24.6,320,12,320,6,320L0,320Z">
+          </path></svg>
+            </section>
+    <!-- Akhir Socials -->
+
+     <!-- Footer -->
+     <footer class="bg-black text-white text-center p-3">
+        <p>Created with <i class="bi bi-heart-fill"></i> by Petra Fellicia</p>
+      </footer>
+     <!-- Akhir Footer -->
+  
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
